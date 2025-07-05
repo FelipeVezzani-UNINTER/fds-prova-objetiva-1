@@ -1,3 +1,5 @@
+<!-- Crie um arquivo chamado index.html e escreva o código para exibir uma página 
+simples contendo: -->
 <html>
     <head>
         <title>Trabalho FDS - HTML</title>
@@ -6,34 +8,46 @@
     </head>
     <body>
         <header>
+            <!-- 1. Um título principal (<h1>) com seu nome. -->
             <h1>Felipe Vezzani</h1>
         </header>
         <main>
+            <!-- 2. Um parágrafo (<p>) apresentando uma breve autobiografia (nome, idade, cidade, interesses etc.). -->
             <p>Me chamo Felipe Vezzani, tenho 33 anos e atualmente moro em Curitiba -PR. Tenho interesse em tecnologia em geral, eu agoro ficar atualizado com tudo o que acontece nesse mundo tecnológico.</p>
+
+            <!-- JavaScript – adicionar um botão para interagir com a página -->
+            <!-- Criar um botão abaixo do parágrafo com o texto "Clique para ver uma mensagem!". -->
+            <button id="messageButton">Clique para ver uma mensagem!</button>
+            <!-- Quando o usuário clicar, uma mensagem (por exemplo uma frase de motivação,  saudação, boas vindas, etc.) deverá aparecer abaixo do botão. -->
+            <div id="messageContainer"></div>
+
+            <!-- 3. Uma lista não ordenada (<ul>) com três hobbies ou atividades favoritas. -->
             <ul>
                 <li>Passar o tempo com minha família</li>
                 <li>Ler notícias sobre tecnologia</li>
                 <li>Jogar jogos digitais</li>
             </ul>
+            <!-- 4. Uma imagem (<img>) que represente um dos hobbies mencionados. -->
             <img src="images\hobby-image.png" alt="Image of an hobby">
+            <!-- 5. Uma tabela  <table> que contenha  o nome e a imagem de três países que gostaria de visitar. (tabela com 3 linhas x 2 colunas) -->
             <table>
                 <tbody>
                     <tr>
                         <td>Canada</td>
-                        <td><img src="images/canada-flag" alt="Canada flag"></td>
-                        <td><img src="images/sweden-flag" alt="Sweden flag"></td>
-                        <td><img src="images/norway-flag" alt="Norway flag"></td>
+                        <td><img src="images/canada-flag.png" alt="Canada flag" width="200"></td>
                     </tr>
                     <tr>
-                        <td>Leitura</td>
-                        <td>Gosto de ler livros sobre tecnologia e ficção científica.</td>
+                        <td>Suíça</td>
+                        <td><img src="images/switzerland-flag.png" alt="Switzerland flag"  width="200"></td>
                     </tr>
                     <tr>
-                        <td>Esportes</td>
-                        <td>Pratico esportes como corrida e ciclismo para manter a saúde.</td>
+                        <td>Noruega</td>
+                        <td><img src="images/norway-flag.png" alt="Norway flag"  width="200"></td>
                     </tr>
                 </tbody>
             </table>
+            <!-- 6. Um link (<a>) que leve para um site de interesse do aluno (exemplo: um site de notícias, tecnologia ou entretenimento). -->
+            <a href="https://news.ycombinator.com/">Hacker News</a>
         </main>
     </body>
 </html>

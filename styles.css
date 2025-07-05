@@ -1,4 +1,5 @@
- /* 1. O fundo da página deve ter uma cor suave. */
+/* CSS - Requisitos de estilização:  */
+/* 1. O fundo da página deve ter uma cor suave. */
 body {
     background-color: lightgoldenrodyellow;
 }
@@ -12,7 +13,6 @@ header h1 {
 /* 3. O parágrafo (<p>) deve ter um tamanho de fonte maior e ser justificado. */
 p {
     font-size: 20px;
-    line-height: 1.6;
     text-align: justify;
 }
 
@@ -36,7 +36,7 @@ img[src*="hobby-image"] {
 
 /* 6. A tabela (<table>) deve estar estilizada. */
 table {
-    width: 100%;
+    width: auto;
     margin-top: 40px;
     border-collapse: collapse;
 }
